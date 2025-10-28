@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lukman Ali Ibrahim — Web Pribadi</title>
+  <style>
+    :root{
+      --bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#7dd3fc
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial,'Noto Sans',sans-serif;
+      background:linear-gradient(180deg,#071029 0%,#061627 100%);
+      color:#e6eef6;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:32px
+    }
+    .site{width:100%;max-width:900px}
+    header{display:flex;align-items:center;gap:16px;margin-bottom:20px}
+    .avatar{
+      width:90px;
+      height:90px;
+      border-radius:50%;
+      overflow:hidden;
+      border:3px solid #7dd3fc;
+      box-shadow:0 0 10px rgba(125,211,252,0.3);
+      flex-shrink:0;
+    }
+    .avatar img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+    h1{margin:0;font-size:30px}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:15px}
+    main{display:grid;grid-template-columns:1fr;gap:20px}
+    .card{
+      background:rgba(255,255,255,0.03);
+      padding:20px;border-radius:16px;
+      box-shadow:0 6px 18px rgba(2,6,23,0.6)
+    }
+    .section-title{
+      font-weight:600;font-size:18px;
+      margin-bottom:10px;color:var(--accent)
+    }
+    footer{text-align:center;margin-top:25px;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="site">
+    <header>
+      <!-- Foto kamu di sini -->
+      <div class="avatar">
+        <img src="WhatsApp Image 2025-10-07 at 18.50.35_2b043410.jpg" alt="Foto Lukman Ali Ibrahim" />
+      </div>
+      <div>
+        <h1>Lukman Ali Ibrahim</h1>
+        <p class="lead">Siswa SMKN 1 Surabaya — Jurusan Teknik Komputer dan Jaringan</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="card">
+        <div class="section-title">Tentang Saya</div>
+        <p>
+          Hola a todos! 👋 Perkenalkan, nama saya <b>Lukman Ali Ibrahim</b>. 
+          Saya seorang siswa di <b>SMKN 1 Surabaya</b> jurusan <b>Teknik Komputer dan Jaringan (TKJ)</b>.
+          Saat ini saya masih duduk di kelas 11 dan sedang memperdalam berbagai hal terkait dunia IT.
+        </p>
+      </section>
+
+      <section class="card">
+        <div class="section-title">Skill & Hobi</div>
+        <p>
+          Saya memiliki kemampuan di bidang <b>konfigurasi router</b>, 
+          serta keahlian dalam <b>perawatan komputer</b> dan <b>pembuatan website</b>.
+        </p>
+        <p>
+          Untuk hobi, saya suka bermain <b>game bergenre story, FPS, dan strategi</b> — 
+          karena dari situ saya juga belajar cara berpikir logis dan kreatif.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      Dibuat oleh Lukman Ali Ibrahim © 2025 — Semua Hak Dilindungi
+    </footer>
+  </div>
+</body>
+</html>
